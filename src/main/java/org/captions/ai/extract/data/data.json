@@ -1,0 +1,184 @@
+[
+    {
+        "id": "2e13f9a4-ce0c-432b-8a59-6562213a7829",
+        "startTime": 0.4354621631385765,
+        "endTime": 3.1390676053154474,
+        "text": "Ils rendent les programmes Java indépendants de la plateforme.",
+        "speaker": ""
+    },
+    {
+        "id": "8e9591a2-2f4a-4f07-aacc-944946c3793c",
+        "startTime": 3.421660982041402,
+        "endTime": 5.762341254150245,
+        "text": "Ils peuvent fonctionner sur n'importe quelle plateforme.",
+        "speaker": ""
+    },
+    {
+        "id": "318455b2-7f43-4035-9a2f-b01bbdd4bd73",
+        "startTime": 6.042783709693785,
+        "endTime": 7.182307519217594,
+        "text": "Voilà, c'est tout.",
+        "speaker": ""
+    },
+    {
+        "id": "8ed9335e-2659-471c-af18-aeb45f3bf801",
+        "startTime": 7.440292590320457,
+        "endTime": 10.269907102792112,
+        "text": "J'ai expliqué comment Java est indépendant de la plateforme.",
+        "speaker": ""
+    },
+    {
+        "id": "4f7405fa-e80a-4d1c-aa6c-a8f1f4e63b58",
+        "startTime": 11.097263889440988,
+        "endTime": 22.530892007354822,
+        "text": "Voyons maintenant une dernière chose: Est-ce que ça veut dire que si j'écris un programme en C++ et que je le compile sur le système d'exploitation Windows, je ne peux pas exécuter ce fichier sur macOS?",
+        "speaker": ""
+    },
+    {
+        "id": "40dfd8b2-d7e8-4ad8-a15a-bec67c577ca4",
+        "startTime": 28.732222311372922,
+        "endTime": 30.47938784425274,
+        "text": "Oui, je ne peux pas l'exécuter.",
+        "speaker": ""
+    },
+    {
+        "id": "7c1a593a-c22f-4854-93ac-07a54c2757e0",
+        "startTime": 32.514819057931355,
+        "endTime": 37.35876463616265,
+        "text": "Mais si je compile ce programme Java sur Windows, je peux l'exécuter sur macOS.",
+        "speaker": ""
+    },
+    {
+        "id": "d4a76467-6b83-4d04-8fe4-cd7b8eb92533",
+        "startTime": 40.03519294970738,
+        "endTime": 40.964353947439804,
+        "text": "Oui, je peux l'exécuter.",
+        "speaker": ""
+    },
+    {
+        "id": "585c5922-a0da-4b05-9e28-920ef57a2ca0",
+        "startTime": 42.35334500453063,
+        "endTime": 42.88586201133335,
+        "text": "C'est possible.",
+        "speaker": ""
+    },
+    {
+        "id": "fb26387f-1874-4a77-9c38-dc1b98a56fcf",
+        "startTime": 43.70047955345581,
+        "endTime": 44.60256572125626,
+        "text": "Ce n'est pas possible.",
+        "speaker": ""
+    },
+    {
+        "id": "c7afe000-db74-4898-b082-7ce07cd20197",
+        "startTime": 46.458234201635065,
+        "endTime": 49.794492705036426,
+        "text": "Un programme compilé sur Windows ne peut pas fonctionner sur Mac.",
+        "speaker": ""
+    },
+    {
+        "id": "1ca1fd5f-ba11-4b0d-beb2-30f709906303",
+        "startTime": 53.15526339082724,
+        "endTime": 57.28553549967077,
+        "text": "Alors qu'un programme Java compilé sur Windows peut fonctionner sur Mac.",
+        "speaker": ""
+    },
+    {
+        "id": "280bca24-c306-4f82-a693-c11a32058d09",
+        "startTime": 58.114549810005485,
+        "endTime": 61.129334390504354,
+        "text": "Et s'il est compilé sur Mac, il peut fonctionner sur Windows.",
+        "speaker": ""
+    },
+    {
+        "id": "11af2c58-2aa7-4b52-a3d4-7809a34440cf",
+        "startTime": 61.3130111409319,
+        "endTime": 63.951174406238025,
+        "text": "Mais en C++, ce n'est pas possible.",
+        "speaker": ""
+    },
+    {
+        "id": "aa183a01-6970-4583-b14a-6aa63425f3f8",
+        "startTime": 63.957718203777574,
+        "endTime": 74.17545063008143,
+        "text": "Parce que si vous compilez pour le système d'exploitation Windows, alors il dépend du système d'exploitation Windows parce qu'il aura les appels système du système d'exploitation Windows.",
+        "speaker": ""
+    },
+    {
+        "id": "1798e49a-ed91-4913-9fa4-a155d45141f3",
+        "startTime": 74.36892729738189,
+        "endTime": 88.27983432686034,
+        "text": "Si le même programme, si vous le compilez sur Linux, alors vous obtenez du code exécutable, un fichier exécutable, disons d'abord c'est le fichier exécutable, alors ça aura les appels système pour Linux.",
+        "speaker": ""
+    },
+    {
+        "id": "a511b4a1-535e-4ed9-b405-9a1d691dd4bb",
+        "startTime": 88.57928362811023,
+        "endTime": 93.58878476189707,
+        "text": "Même fichier, si vous l'exécutez sous Windows, il ne fonctionnera pas.",
+        "speaker": ""
+    },
+    {
+        "id": "6b064b68-0ca8-4747-8fbf-ae351f6cf29b",
+        "startTime": 93.60784905135742,
+        "endTime": 96.70966311031434,
+        "text": "Parce qu'il contient des appels système de Linux.",
+        "speaker": ""
+    },
+    {
+        "id": "6f3bac9d-4926-46dd-8467-aada62695c1d",
+        "startTime": 96.71810985273584,
+        "endTime": 101.1034840023957,
+        "text": "Lorsque le même programme s'adresse à Windows, Windows ne peut pas le comprendre.",
+        "speaker": ""
+    },
+    {
+        "id": "c2c84285-c19b-4309-a474-9a93e4c6dcbd",
+        "startTime": 101.11345024307535,
+        "endTime": 101.42127337232705,
+        "text": "C'est tout.",
+        "speaker": ""
+    },
+    {
+        "id": "8d7f9376-907d-4e2a-909c-d0403628765d",
+        "startTime": 101.4300608975079,
+        "endTime": 103.45468674784803,
+        "text": "Je ferai la démonstration dans la prochaine vidéo.",
+        "speaker": ""
+    },
+    {
+        "id": "050e6d84-3eae-451e-9ead-839ead68b936",
+        "startTime": 103.47873773400225,
+        "endTime": 111.49742254125849,
+        "text": "J'écrirai un programme C++ et je vous montrerai que s'il est compilé sous Windows, il ne peut pas fonctionner sur Mac.",
+        "speaker": ""
+    },
+    {
+        "id": "f03aad0d-aa69-4c32-a439-4f08a8125716",
+        "startTime": 111.50582033613728,
+        "endTime": 117.5554575243459,
+        "text": "Maintenant, le même programme Java que je vais compiler sous Windows, et je vais l'exécuter sur Mac.",
+        "speaker": ""
+    },
+    {
+        "id": "05a26d48-b790-415b-ad4f-bc09af5bf375",
+        "startTime": 117.55872091909436,
+        "endTime": 124.30429915038687,
+        "text": "Donc, ne manquez pas la prochaine vidéo, là je vais vous montrer comment Java est indépendant de la plateforme.",
+        "speaker": ""
+    },
+    {
+        "id": "e6371811-e5a0-4b58-9784-7ff56a43ebba",
+        "startTime": 124.31935252440331,
+        "endTime": 131.55084912304278,
+        "text": "Je ferai la démonstration et vous montrerai comment C, C++ ne sont pas indépendants de la plateforme.",
+        "speaker": ""
+    },
+    {
+        "id": "66aff30e-d2f8-45f1-9ea7-f4b15eefe8b9",
+        "startTime": 131.5828388100157,
+        "endTime": 132.71469822044654,
+        "text": "C'est tout pour cette vidéo.",
+        "speaker": ""
+    }
+]

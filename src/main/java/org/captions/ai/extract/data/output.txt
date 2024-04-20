@@ -1,0 +1,81 @@
+Dans cette vidéo, je vais vous expliquer comment les programmes Java sont compilés et exécutés.
+Et aussi, je vais expliquer comment les programmes Java sont indépendants de la plate-forme.
+Contrairement aux programmes en C et C++, qui sont dépendants de la plate-forme, Java est indépendant.
+Voyons donc comment les programmes Java s'exécutent.
+Dans les vidéos de démonstration, nous devons écrire un fichier de programme, par exemple first.java.
+Ensuite, nous utilisons javac pour compiler notre programme.
+Ce fichier est appelé code source car nous y écrivons du code Java.
+Le compilateur lira ce code source et confirmera qu'il ne contient aucune erreur.
+S'il n'y a pas d'erreurs, il génèrera un fichier de classe qui ne contiendra pas de code machine mais du bytecode.
+Javac convertira donc le code source en bytecode.
+Ce bytecode n'est pas un programme exécutable, mais il ne contient aucune erreur.
+Il ne contient aucune erreur.
+Alors, comment le programme Java peut-il s'exécuter?
+Le bytecode ne s'exécutera pas.
+Comment cela va-t-il s'exécuter?
+Pour l'exécution, on appelle JVM et on demande à la JVM d'exécuter ce fichier.
+Donc, la JVM est une machine virtuelle Java.
+Qu'est-ce que ça veut dire par machine virtuelle Java?
+Donc, pour une compréhension de base, vous pouvez penser que l'ordinateur portable ou le PC que vous utilisez est une machine et qu'à l'intérieur de celle-ci,
+il y a une machine virtuelle.
+Ce n'est pas une machine réelle, c'est une machine virtuelle.
+Cette machine virtuelle disposera d'un interpréteur ou d'un compilateur JIT qui convertira ce byte code en code machine et l'exécutera sur le matériel.
+La JVM peut-elle interagir directement avec le matériel?
+Non, elle interagira avec le matériel via le système d'exploitation.
+Pas directement, mais via le système d'exploitation.
+Ainsi, la JVM parlera au système d'exploitation et le système d'exploitation aidera la JVM à exécuter son programme.
+Alors, qu'en est-il des autres langages?
+Disons que c'est un programme C++.
+First.cpp.
+Quand vous compilez, vous obtenez first.exe et ce n'est rien d'autre que du code machine.
+Le programme C++ que nous avons écrit est un code source et quand vous compilez, vous obtenez du code machine.
+Donc, ce code machine peut s’exécuter directement sur le matériel.
+Oui, il n’a pas besoin d’aucune conversion.
+Mais aucun programme ne s’exécutera directement sur le matériel.
+Chaque programme s’exécute via le système d’exploitation.
+Sur Windows ou sur notre ordinateur portable ou notre téléphone portable, chaque fois que nous voulons exécuter une application, on la touche simplement ou on
+ double-clique dessus.
+Alors, qui ouvrira l’application et la lancera?
+Le système d’exploitation l’exécutera.
+Ainsi, les programmes s’exécutent via le système d’exploitation.
+Donc, ceci signifie que ce code machine peut parler à ce système d’exploitation et le système d’exploitation aidera ce code machine à s’exécuter.
+C’est tout ce que je vous ai expliqué: comment les programmes Java s’exécutent là où la JVM est impliquée et comment les programmes dans d’autres langages s’exécutent.
+Maintenant, comprenons comment Java est indépendant de la plateforme.
+Voyez dans ceci: j’utilise le même schéma.
+Voyez: c’est mon programme first.exe.
+Supposons que ce soit un programme en C++.
+Je l’ai compilé.
+Maintenant, quand je veux le lancer, je dois l’exécuter sur le système d’exploitation.
+Donc, le système d’exploitation aidera ce programme à s’exécuter sur le matériel.
+Donc, ce programme parlera au système d’exploitation.
+Alors, comment un programme peut-il parler au système d’exploitation ?
+Par exemple
+Ils rendent les programmes Java indépendants de la plateforme.
+Ils peuvent fonctionner sur n'importe quelle plateforme.
+Voilà, c'est tout.
+J'ai expliqué comment Java est indépendant de la plateforme.
+Voyons maintenant une dernière chose: Est-ce que ça veut dire que si j'écris un programme en C++ et que je le compile sur le système d'exploitation Windows,
+je ne peux pas exécuter ce fichier sur macOS?
+Oui, je ne peux pas l'exécuter.
+Mais si je compile ce programme Java sur Windows, je peux l'exécuter sur macOS.
+Oui, je peux l'exécuter.
+C'est possible.
+Ce n'est pas possible.
+Un programme compilé sur Windows ne peut pas fonctionner sur Mac.
+Alors qu'un programme Java compilé sur Windows peut fonctionner sur Mac.
+Et s'il est compilé sur Mac, il peut fonctionner sur Windows.
+Mais en C++, ce n'est pas possible.
+Parce que si vous compilez pour le système d'exploitation Windows, alors il dépend du système d'exploitation Windows parce qu'il aura les appels système du système
+d'exploitation Windows.
+Si le même programme, si vous le compilez sur Linux, alors vous obtenez du code exécutable, un fichier exécutable, disons d'abord c'est le fichier exécutable, alors
+ça aura les appels système pour Linux.
+Même fichier, si vous l'exécutez sous Windows, il ne fonctionnera pas.
+Parce qu'il contient des appels système de Linux.
+Lorsque le même programme s'adresse à Windows, Windows ne peut pas le comprendre.
+C'est tout.
+Je ferai la démonstration dans la prochaine vidéo.
+J'écrirai un programme C++ et je vous montrerai que s'il est compilé sous Windows, il ne peut pas fonctionner sur Mac.
+Maintenant, le même programme Java que je vais compiler sous Windows, et je vais l'exécuter sur Mac.
+Donc, ne manquez pas la prochaine vidéo, là je vais vous montrer comment Java est indépendant de la plateforme.
+Je ferai la démonstration et vous montrerai comment C, C++ ne sont pas indépendants de la plateforme.
+C'est tout pour cette vidéo.

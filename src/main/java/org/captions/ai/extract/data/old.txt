@@ -1,0 +1,120 @@
+Dans cette video, je vais parler des fonctionnalités de Java qu'on appelle des mots à la mode.
+Certaines de ces fonctionnalités sont les sujets de ce cours, comme le multithreading qui est un sujet important dans ce cours.
+Quoi qu'il en soit, c'est comme une introduction, nous allons passer en revue ces fonctionnalités.
+La toute première fonctionnalité est que Java est simple.
+On dit que Java est simple.
+La raison pour laquelle on dit qu'il est simple est que, pour un programmeur venant de la programmation C ou C++, la syntaxe de Java lui paraîtra similaire
+ à celle de C ou C++.
+Et même si vous apprenez Java comme votre premier langage de programmation, il n'est pas très difficile à comprendre.
+C'est plus simple, tout comme la langue anglaise.
+Maintenant, la prochaine chose est la sécurité.
+Java est sécurisé.
+La raison pour laquelle on dit qu'il est sécurisé est qu'il ne peut pas être infecté par des virus ou être attaqué par un logiciel malveillant.
+La raison est la machine virtuelle Java (JVM).
+La machine virtuelle Java que nous avons étudié a un gestionnaire de sécurité ou un vérificateur, Vérifier, qui vérifie le code Java et confirme qu'il n'y a
+pas de bogues, de logiciels malveillants ou de code malveillant dans Java.
+Il n'y a donc pas de malwares ou de code malveillant dans Java.
+Ainsi, la JVM n'exécutera pas le code s'il contient des éléments malveillants.
+Java s'exécute donc dans l'environnement sécurisé de la JVM.
+Elle est donc sécurisée.
+Nous avons déjà vu ce schéma où les programmes Java s'exécutent dans la JVM.
+Cela garantit la sécurité des programmes Java.
+C'est ainsi que Java est sécurisé.
+Ensuite, Java est portable.
+Nous avons appris que Java est indépendant de la plateforme, ce qui signifie que les programmes Java peuvent s'exécuter sur n'importe quelle plateforme.
+Ainsi, si vous écrivez un programme Java sous Windows, vous pouvez le porter sur une autre plateforme comme Linux et l'exécuter.
+Java peut donc passer d'une plateforme à une autre.
+Cette indépendance de la plateforme apporte la portabilité à Java.
+Voyez, nous avons vu ce schéma que le programme Java une fois compilé sur n'importe quel système d'exploitation, il peut tourner sur Windows,
+il peut tourner sur Linux ou Mac sur n'importe quel système d'exploitation, il peut fonctionner.
+À condition que la JVM soit là.
+C'est comme ça que les programmes Java sont portables.
+Donc ça, c'est fini.
+Maintenant on va voir la fonctionnalité orientée objet de Java.
+L'orientation objet, c'est un style de programmation.
+C'est un paradigme, une méthode pour développer des applications.
+Et les principes de la programmation orientée objet sont l'abstraction, l'encapsulation, l'héritage et le polymorphisme.
+On va découvrir toutes ces fonctionnalités.
+Ça fait partie des bases de la programmation Java.
+On va en apprendre plus sur ça.
+Donc c'est orienté objet.
+Donc les langages orientés objet, ils sont très faciles à apprendre.
+Et ils ressemblent plus à la langue anglaise.
+C'est comme ça que Java devient simple.
+Ensuite, les programmes Java sont robustes.
+Robuste, ça veut dire qu'ils sont costauds, ils ne tombent jamais en panne ou ne plantent jamais, même dans les pires conditions.
+Alors, qu'est-ce que c'est que les pires conditions?
+Pendant l'exécution, si un programme nécessite des ressources et que celles-ci ne sont pas disponibles, généralement les programmes bloquent.
+Les programmes en C++ peuvent planter s'ils ne sont pas écrits correctement.
+Mais Java garantit que même en cas d'indisponibilité des ressources, le programme continue de s'exécuter.
+Il ne peut pas planter jusqu'à ce qu'un utilisateur l'arrête.
+Donc, cette fonctionnalité est obtenue à l'aide de la gestion des exceptions.
+Celle-ci est réalisée à l'aide de la gestion des exceptions.
+Nous avons une section à ce sujet.
+Nous apprendrons des détails sur cette gestion des exceptions.
+Les programmes Java sont donc robustes et solides.
+Vient ensuite le multithreading.
+Java prend en charge le multithreading.
+Le multithreading signifie que nous pouvons diviser un seul programme en plusieurs parties afin qu'elles puissent s'exécuter simultanément.
+Nous devons en savoir plus sur ce multithreading.
+Donc, le nom suffit ici dans cette conférence.
+Java est donc multithread.
+Ensuite, Java est neutre sur le plan architectural.
+Il est donc neutre sur le plan de l'architecture, ce qui signifie qu'il est indépendant de l'architecture matérielle.
+Il existe différentes architectures matérielles, n'est-ce pas?
+L'architecture couramment utilisée est donc l'architecture de Von Neumann.
+D'autres architectures sont également disponibles.
+Généralement, nous ne les connaissons pas, comme la plus célèbre est l'architecture de Von Neumann.
+Tous les ordinateurs, tous les ordinateurs portables, les machines que nous utilisons aujourd'hui sont basés sur l'architecture de Von Neumann.
+Donc, Java fonctionne sur l'architecture de Von Neumann.
+ARM est une architecture utilisée dans les téléphones mobiles, les processeurs dans les téléphones mobiles, ils sont basés sur l'architecture ARM.
+Donc, cette architecture est un peu différente de celle de Von Neumann.
+Si vous voulez l'étudier, vous pouvez l'étudier, mais le matériel d’ARM n’est pas exactement le même que celui de Von Neumann.
+C'est une variante de Von Neumann ou c'est quelque peu différent de Von Neumann.
+Vient ensuite RISC, c'est-à-dire Reduce Instruction Set Computer, et ARM est basé sur l'architecture RISC, et il y a un autre jeu d'instructions plus complexe,
+les ordinateurs sont également là et l'architecture embarquée est également là.
+Donc, si vous êtes intéressé, vous pouvez étudier plus en détail ces architectures.
+Donc, le plus couramment utilisé est Von Neumann.
+Donc, Java peut fonctionner sur n'importe quelle architecture, parce que Java ne dépend pas du matériel.
+Java s'exécute à l'intérieur de sa propre JVM.
+Donc, si la JVM est disponible sur n'importe quel matériel, Java peut s'y exécuter.
+C'est ainsi que Java est neutre en matière d'architecture.
+Ensuite, c'est l'interprétation de Java.
+Nous savons que Java utilise un interpréteur, ainsi qu'un compilateur JIT.
+Je vous ai déjà expliqué celui-ci.
+Java est donc un langage interprété.
+En tant que langage interprété, Java est un peu lent par rapport au C et au C++.
+Au début, les premières versions de Java se plaignaient que Java était très lent.
+Plus tard, ils ont introduit le compilateur JIT, qui a rendu Java plus rapide.
+Donc, bien qu'il soit interprété, il s'agit d'une haute performance.
+C'est donc une fonctionnalité.
+C'est ensemble, c'est interprété, mais c'est de haute performance.
+C'est ainsi qu'il faut l'interpréter.
+Le suivant est Java est distribué.
+Java prend donc en charge l'informatique distribuée.
+C'est donc une image d'ordinateurs distribués, comme si plusieurs ordinateurs étaient connectés.
+ensemble dans un réseau, et les programmes exécutés sur ces ordinateurs peuvent collaborer ensemble et fonctionner comme un seul ordinateur ou un seul logiciel.
+Ils peuvent fonctionner ensemble comme un seul logiciel.
+Ainsi, un programme Java peut être divisé en plusieurs composants et ces derniers peuvent être déployés et exécutés sur différents ordinateurs, tous ces composants
+travaillant ensemble pour former un seul programme.
+C'est ce qu'on appelle l'informatique distribuée et c'est particulièrement utile dans les entreprises réparties dans le monde ou dans un pays où plusieurs
+filiales d'une même entreprise fonctionnent de concert.
+Les ordinateurs du monde entier peuvent ainsi être connectés via Internet et des programmes Java s'exécutant sur différentes machines travaillent ensemble.
+Ce type d'applications est appelé applications d'entreprise et certaines technologies prennent en charge cette fonctionnalité de Java, dont l'une des plus
+utilisées était EjB.
+Aujourd'hui, nous avons Spring.
+Cela est utilisé dans le développement d'applications distribuées.
+C'est donc le framework actuellement utilisé pour développer des applications distribuées à l'aide de Java.
+Enfin, Java est dynamique.
+Ainsi, chaque objet que vous créez en Java est dynamique parce qu’il est créé dans le tas.
+C’est une signification qu’il a et l’autre signification, c’est que si un programme Java est une application est en cours d’exécution ici, à un endroit précis,
+vous pouvez facilement déplacer l’état d’exécution sur une autre machine.
+Vous pouvez donc exécuter le même programme sur cette machine, ce qui permet de transférer ou de porter un programme qui est en cours d’exécution.
+Donc, cela apporte aussi la portabilité, et cette portabilité est dynamique donc vous n'avez pas besoin de fermer un composant, d’arrêter un composant,
+et de le déplacer là-bas.
+Vous pouvez ainsi déplacer le programme en cours d’exécution d’une machine à une autre.
+Quoi qu’il en soit, cela a une signification très vaste, cela peut être pris dans de nombreux sens, divers sens.
+C’est donc tout ce que sont les fonctionnalités de Java.
+Je viens donc de donner les introductions, et certaines des fonctionnalités nécessitent des connaissances plus approfondies pour que vous puissiez les comprendre
+parfaitement.
+C’est donc tout pour ce cours.
